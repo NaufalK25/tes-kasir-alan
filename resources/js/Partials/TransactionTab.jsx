@@ -45,7 +45,7 @@ const TransactionTab = ({ foods }) => {
                 <div className="grid grid-cols-3 gap-12">
                     {foods.map((food) => (
                         <div
-                            className="card w-48 bg-base-100 shadow-xl cursor-pointer"
+                            className="card w-48 h-fit bg-base-100 shadow-xl cursor-pointer"
                             key={food.id}
                             onClick={() => handleAddToCart(food)}
                         >
